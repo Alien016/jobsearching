@@ -6,4 +6,4 @@ CAP：分布式计算系统不可能同时满足以下三个条件：
      Availability保证每个请求不管成功或者失败都有响应
      Partition Tolerance系统中任意信息的丢失或失败不会影响系统的继续运作
 BASE：Basically Available、Soft-state、Eventually consitent
-即使无法做到强一致性，但每个应用可以根据自身业务特点采用适当的方式来使系统达到最终一致性。
+     即使无法做到强一致性，但每个应用可以根据自身业务特点采用适当的方式来使系统达到最终一致性。
